@@ -1660,7 +1660,7 @@ menuBus.on('scale-ui-by',
 menuBus.on('scale-ui-reset',
   (event, value) => mainWindow.webContents.send('scale-ui-reset', value))
 
-menuBus.on('saveShot',
+ipcMain.on('saveShot',
   (event, data) => mainWindow.webContents.send('saveShot', data))
 ipcMain.on('insertShot',
   (event, data) => mainWindow.webContents.send('insertShot', data))
