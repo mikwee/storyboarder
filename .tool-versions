@@ -1,0 +1,2 @@
+nodejs 16.20.2
+python 2.7.18 3.10.13 # 2.x for node-sass, 3.x for deasync
